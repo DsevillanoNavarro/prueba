@@ -1,0 +1,25 @@
+{
+  "name": "Palkia",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.4,
+      "z": -0.4
+    },
+    "WALKING": {
+      "x": 0,
+      "y": 0,
+      "z": 0.6
+    },
+    "FLYING": {
+      "x": 0,
+      "y": 0.9,
+      "z": 1.5
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.25,
+  "waterSpeedModifier": 0.125,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

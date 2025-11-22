@@ -1,0 +1,11 @@
+{
+  "msd_id": "raichunitey",
+  "showdown_id": "raichunitey",
+  "item_id": "lumymon:raichunite_y",
+  "item_name": "Raichunite Y",
+  "item_description": [],
+  "custom_model_data": 0,
+  "required_aspects": [],
+  "pokemon": "Raichu",
+  "apply_aspect": "mega_y"
+}

@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "excadrill-1",
+            "pokemon": "excadrill",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "32-50",
+            "weight": 6.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_cave"
+                ]
+            }
+        },
+        {
+            "id": "excadrill-2",
+            "pokemon": "excadrill",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "32-52",
+            "weight": 1.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        }
+    ]
+}

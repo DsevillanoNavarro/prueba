@@ -1,0 +1,28 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "heliolisk-1",
+            "pokemon": "heliolisk",
+            "presets": [ 
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "37-58",
+            "weight": 4.0,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ],
+                "isRaining": false,
+                "timeRange": "day"
+            }
+        }
+    ]
+}

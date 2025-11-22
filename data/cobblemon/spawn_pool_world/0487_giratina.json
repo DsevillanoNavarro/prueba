@@ -1,0 +1,25 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "giratina-1",
+      "pokemon": "giratina",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "75-95",
+      "weight": 0.1,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": [ 
+          "minecraft:deep_dark"
+        ],
+        "structures": [
+          "minecraft:ancient_city"
+        ]
+      }
+    }
+  ]
+}

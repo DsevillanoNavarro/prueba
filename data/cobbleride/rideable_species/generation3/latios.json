@@ -1,0 +1,46 @@
+{
+	"name": "latios",
+	"offsets": {
+		"DEFAULT": {
+			"x": 0.0,
+			"y": -0.8,
+			"z": 0.0
+		}
+	},
+	"additionalSeats": [
+    {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.8,
+      "z": -0.7
+    }
+  }
+],
+	"baseSpeedModifier": 1.0,
+	"landSpeedModifier": 1.0,
+	"waterSpeedModifier": 1.2,
+	"airSpeedModifier": 2.0,
+	"forms": [
+		{
+			"name": "Mega",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -0.15,
+					"z": 0
+				},
+				"FLYING": {
+					"x": 0,
+					"y": -0.15,
+					"z": 0
+				  }
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 1.0,
+			"waterSpeedModifier": 1.0,
+			"airSpeedModifier":1.4
+		
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "msd_id": "dragonitite",
+  "showdown_id": "dragonitite",
+  "item_id": "lumymon:dragonitite",
+  "item_name": "Dragonitite",
+  "item_description": [],
+  "custom_model_data": 0,
+  "required_aspects": [],
+  "pokemon": "Dragonite",
+  "apply_aspect": "mega"
+}

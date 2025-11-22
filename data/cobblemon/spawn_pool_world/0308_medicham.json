@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "medicham-1",
+            "pokemon": "medicham",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "38-58",
+            "weight": 3.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_peak"
+                ]
+            }
+        }
+    ]
+}

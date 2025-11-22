@@ -1,0 +1,39 @@
+{
+  "name": "Goodra",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -1.7,
+      "z": -0.5
+    }
+  },
+  "baseSpeedModifier": 0.25,
+  "landSpeedModifier": 1.0,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": [
+    {
+      "name": "Hisui",
+      "offsets": {
+        "DEFAULT": {
+          "x": 0,
+          "y": -1.4,
+          "z": 0.9
+        }
+      },
+      "additionalSeats": [
+     {
+        "DEFAULT": {
+          "x": 0,
+          "y": 1.4,
+          "z": -0.6
+        }
+     }
+     ],
+      "baseSpeedModifier": 0.25,
+      "landSpeedModifier": 1.0,
+      "waterSpeedModifier": 0.5,
+      "airSpeedModifier": 1.0
+    }
+  ]
+}

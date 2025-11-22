@@ -1,0 +1,61 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "zygarde-1",
+            "pokemon": "zygarde core",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "1-10",
+            "weight": 2.5,
+             "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "minecraft:dripstone_caves"
+                ]
+            }
+        },
+        {
+            "id": "zygarde-2",
+            "pokemon": "zygarde percent_cells=10",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "10-50",
+            "weight": 1.5,
+             "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "minecraft:dripstone_caves"
+                ]
+            }
+        },
+        {
+            "id": "zygarde-3",
+            "pokemon": "zygarde percent_cells=50",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "50-80",
+            "weight": 0.5,
+             "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "minecraft:dripstone_caves"
+                ]
+            }
+        }
+    ]
+}

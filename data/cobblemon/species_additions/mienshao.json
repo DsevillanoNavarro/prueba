@@ -1,0 +1,36 @@
+{
+  "implemented": true,
+  "target": "cobblemon:mienshao",   
+  "shoulderMountable": false,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1.15,
+    "fixed": false
+  },
+  "drops": {
+  "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:payaba_berry",
+        "percentage": 25
+      },
+      {
+        "item": "minecraft:expert_belt",
+        "percentage": 50
+      }
+    ]
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "depth": "normal",
+      "light": "0-4"
+    }
+  }
+}

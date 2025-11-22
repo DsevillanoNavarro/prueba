@@ -1,0 +1,65 @@
+{
+  "implemented": true,
+  "target": "cobblemon:mewtwo",
+  "baseScale": 0.9,
+  "hitbox": {
+    "width": 1,
+    "height": 2.2,
+    "fixed": false
+   },
+   "features": [
+    "shadow",
+    "armored"
+  ],
+  "evolutions": [],
+  "forms": [
+    {
+      "name": "Shadow",
+      "primaryType": "psychic",
+      "secondaryType": "dark",
+      "aspects": [
+        "shadow"
+      ],
+      "pokedex": [
+        "cobblemon.species.mewtwo-shadow.desc"
+      ],
+      "abilities": [
+        "pressure",
+        "h:unnerve"
+      ],
+      "baseStats": {
+        "hp": 106,
+        "attack": 132,
+        "defence": 72,
+        "special_attack": 184,
+        "special_defence": 72,
+        "speed": 130
+      },
+      "evolutions": []
+    },
+    {
+      "name": "Armored",
+      "primaryType": "psychic",
+      "secondaryType": "steel",
+      "aspects": [
+        "armored"
+      ],
+      "pokedex": [
+        "cobblemon.species.mewtwo-armored.desc"
+      ],
+      "abilities": [
+        "battlearmor",
+        "h:shellarmor"
+      ],
+      "baseStats": {
+        "hp": 106,
+        "attack": 130,
+        "defence": 110,
+        "special_attack": 90,
+        "special_defence": 154,
+        "speed": 90
+      },
+      "evolutions": []
+    }
+  ]
+}

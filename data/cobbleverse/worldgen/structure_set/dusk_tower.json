@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "cobbleverse:dusk_tower",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "salt": 88817,
+        "spacing": 150,
+        "separation": 80,
+        "type": "random_spread"
+    }
+}

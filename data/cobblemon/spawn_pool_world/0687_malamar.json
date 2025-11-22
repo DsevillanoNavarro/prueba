@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "malamar-1",
+            "pokemon": "malamar",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "15-55",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        }
+    ]
+}

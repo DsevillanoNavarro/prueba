@@ -1,0 +1,15 @@
+{
+  "name": "Zamazenta",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.5,
+      "z": 0
+    }
+  },
+  "baseSpeedModifier": 1.2,
+  "landSpeedModifier": 1.2,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.2,
+  "forms": []
+}

@@ -1,0 +1,22 @@
+{
+  "implemented": true,
+  "target": "cobblemon:kyurem",
+  "behaviour": {
+      "moving": {
+        "canLook": true,
+        "walk": {
+          "walkSpeed": 1.5,
+          "canWalk": true,
+          "avoidsLand": false
+        },
+      "fly": {
+        "canFly": true
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
+}

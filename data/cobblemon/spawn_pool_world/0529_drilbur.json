@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "drilbur-1",
+            "pokemon": "drilbur",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-30",
+            "weight": 8.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_cave"
+                ]
+            }
+        },
+        {
+            "id": "drilbur-2",
+            "pokemon": "drilbur",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-27",
+            "weight": 7.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_savanna"
+                ]
+            }
+        }
+    ]
+}

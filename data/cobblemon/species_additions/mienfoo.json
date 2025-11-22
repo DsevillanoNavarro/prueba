@@ -1,0 +1,34 @@
+{
+  "implemented": true,
+  "target": "cobblemon:mienfoo",   
+  "shoulderMountable": false,
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 0.7,
+    "height": 0.8,
+    "fixed": false
+  },
+  "drops": {
+  "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:payapa_berry",
+        "percentage": 25
+      }
+    ]
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "walkSpeed": 0.45,   
+      "runSpeed": 0.55,   
+      "depth": "normal",
+      "light": "0-4"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "drednaw-1",
+            "pokemon": "drednaw",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "35-47",
+            "weight": 4.1,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "drednaw-2",
+            "pokemon": "drednaw",
+            "presets": [ 
+                "natural" 
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "28-55",
+            "weight": 3.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_river"
+                ]
+            }
+        }
+    ]
+}

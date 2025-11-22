@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "mewtwo-1",
+      "pokemon": "mewtwo",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "75",
+      "weight": 2.5,
+      "condition": {
+        "biomes": [ 
+        "cobbleverse:custom_spawn"
+        ]
+      }
+    }
+  ]
+}

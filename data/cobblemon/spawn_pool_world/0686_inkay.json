@@ -1,0 +1,21 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "inkay-1",
+            "pokemon": "inkay",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "#minecraft:is_end"
+                ]
+            }
+        }
+    ]
+}

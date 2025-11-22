@@ -1,0 +1,17 @@
+{
+  "target": "cobblemon:unown",
+	"baseScale": 1,
+  "hitbox": {
+    "width": 0.5,
+    "height": 1,
+    "fixed": false
+  },
+   "behaviour": {
+    "moving": {
+    "canLook": false,
+      "fly": {
+        "canFly": true
+      }  
+    }
+  }
+}

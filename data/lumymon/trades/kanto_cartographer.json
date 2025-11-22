@@ -1,0 +1,363 @@
+{
+  "tiers": [
+    {
+      "groups": [
+        {
+          "num_to_select": 2.0,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "cobblemon:hard_stone"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "minecraft:target_point",
+                    "destination": "cobbleverse:kanto_brock_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§7Brock's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 10.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "cobblemon:mystic_water"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "minecraft:target_point",
+                    "destination": "cobbleverse:kanto_misty_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§bMisty's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 10.0
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 0
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2.0,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "cobblemon:magnet"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "minecraft:target_point",
+                    "destination": "cobbleverse:kanto_ltsurge_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§6Lt.Surge's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 30.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "cobblemon:miracle_seed"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "minecraft:target_point",
+                    "destination": "cobbleverse:kanto_erika_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§aErika's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 30.0
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 5
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2.0,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "cobblemon:poison_barb"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "minecraft:target_point",
+                    "destination": "cobbleverse:kanto_koga_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§5Koga's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 40.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "cobblemon:twisted_spoon"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "minecraft:target_point",
+                    "destination": "cobbleverse:kanto_sabrina_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§dSabrina's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 40.0
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 50
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 2.0,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "cobblemon:charcoal_stick"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:nether_wart_block"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "minecraft:target_point",
+                    "destination": "cobbleverse:kanto_blaine_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§4Blaine's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 60.0
+            },
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "cobblemon:destiny_knot"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:sculk"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "minecraft:target_point",
+                    "destination": "cobbleverse:kanto_giovanni_gym",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 50
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§8Giovanni's Gym",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 60.0
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 150
+    },
+    {
+      "groups": [
+        {
+          "num_to_select": 1.0,
+          "trades": [
+            {
+              "cost_a": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "add": false,
+                    "count": 1.0,
+                    "function": "minecraft:set_count"
+                  }
+                ],
+                "name": "cobblemon:life_orb"
+              },
+              "cost_b": {
+                "type": "minecraft:item",
+                "name": "minecraft:end_stone"
+              },
+              "max_uses": 4.0,
+              "price_multiplier": 0.05,
+              "result": {
+                "type": "minecraft:item",
+                "functions": [
+                  {
+                    "decoration": "minecraft:target_point",
+                    "destination": "cobbleverse:kanto_league_tower",
+                    "function": "minecraft:exploration_map",
+                    "search_radius": 100
+                  },
+                  {
+                    "function": "minecraft:set_name",
+                    "name": "§cKanto League",
+                    "target": "item_name"
+                  }
+                ],
+                "name": "minecraft:map"
+              },
+              "trader_experience": 100.0
+            }
+          ]
+        }
+      ],
+      "total_exp_required": 250
+    }
+  ]
+}

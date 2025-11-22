@@ -1,0 +1,66 @@
+{
+  "name": "Necrozma",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0.0,
+      "y": 1.3,
+      "z": -0.4
+    },
+	    "WALKING": {
+      "x": 0.0,
+      "y": 0.8,
+      "z": -0.5
+    },
+    	"FLYING": {
+      "x": 0.0,
+      "y": 0.8,
+      "z": -0.5
+    }
+  },
+  "baseSpeedModifier": 1.3,
+  "landSpeedModifier": 1.2,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": [
+		{
+			"name": "Dusk-Mane",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": -1,
+					"z": -0.8
+				},
+				"FLYING": {
+					"x": 0,
+					"y": -0.5,
+					"z": -0.9
+				  }
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 1.0,
+			"waterSpeedModifier": 1.0,
+			"airSpeedModifier":1.4
+		},
+    		{
+			"name": "Dawn-Wings",
+			"enabled": true,
+			"offsets": {
+				"DEFAULT": {
+					"x": 0.0,
+					"y": 0.3,
+					"z": 0.3
+				},
+				"FLYING": {
+					"x": 0,
+					"y": 0.5,
+					"z": -0.5
+				  }
+			},
+			"baseSpeedModifier": 1.0,
+			"landSpeedModifier": 1.0,
+			"waterSpeedModifier": 1.0,
+			"airSpeedModifier":1.4
+		}
+	]
+}

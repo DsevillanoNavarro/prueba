@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "drapion-1",
+            "pokemon": "drapion",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "41-53",
+            "weight": 4.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "drapion-2",
+            "pokemon": "drapion",
+            "presets": [
+                "natural",
+                "wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "44-60",
+            "weight": 7.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ]
+            }
+        }
+    ]
+}

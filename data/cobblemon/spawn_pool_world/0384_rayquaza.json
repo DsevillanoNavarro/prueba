@@ -1,0 +1,26 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "rayquaza-1",
+      "pokemon": "rayquaza",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "70",
+      "weight": 1.5,
+      "condition": {
+        "biomes": [ 
+          "cobbleverse:custom_spawn"
+      ],
+      "timeRange": "day",
+      "isRaining": false
+      }
+    }
+  ]
+}

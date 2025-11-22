@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "sinistcha-1",
+            "pokemon": "sinistcha",
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "15-48",
+            "weight": 5.8,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_spooky"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Articuno",
+  "offsets": {
+    "DEFAULT": {
+      "x": 0,
+      "y": -0.5,
+      "z": -0.5
+    },
+    "HOVERING": {
+      "x": 0,
+      "y": 0.3,
+      "z": -0.5
+    },
+    "FLYING": {
+      "x": 0,
+      "y": 0.4,
+      "z": 0.2
+    }
+  },
+  "baseSpeedModifier": 1.0,
+  "landSpeedModifier": 0.5,
+  "waterSpeedModifier": 0.5,
+  "airSpeedModifier": 1.0,
+  "forms": []
+}

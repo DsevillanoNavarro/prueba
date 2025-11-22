@@ -1,0 +1,11 @@
+{
+  "msd_id": "malamarite",
+  "showdown_id": "malamarite",
+  "item_id": "lumymon:malamarite",
+  "item_name": "Malamarite",
+  "item_description": [],
+  "custom_model_data": 0,
+  "required_aspects": [],
+  "pokemon": "Malamar",
+  "apply_aspect": "mega"
+}
