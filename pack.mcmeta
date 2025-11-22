@@ -1,6 +1,6 @@
 {
-    "pack": {
-        "description": "§c§lCOBBLE§b§lVERSE §eJohto Datapack §av6 §7| §fby §4§lLUMY§9§lVERSE",
-        "pack_format": 48
-    }
+	"pack": {
+		"pack_format": 48,
+		"description": "Sweep up the game! V1.2"
+	}
 }
