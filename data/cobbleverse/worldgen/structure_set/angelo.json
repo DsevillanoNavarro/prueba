@@ -1,0 +1,14 @@
+{
+  "structures": [
+      {
+          "structure": "cobbleverse:angelo",
+          "weight": 1
+      }
+  ],
+  "placement": {
+      "salt": 4284,
+      "spacing": 40,
+      "separation": 20,
+      "type": "random_spread"
+  }
+}

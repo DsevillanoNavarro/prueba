@@ -1,0 +1,34 @@
+{
+  "parent": "cobbleverse:trainer/johto/defeat_valerio",
+  "display": {
+    "title": {
+      "translate": "advancements.cobbleverse.johto.defeat_raffaello"
+    },
+    "description": {
+      "translate": "advancements.cobbleverse.johto.defeat_raffaello.description"
+    },
+    "icon": {
+      "id": "cobbleversebadges:johto_hive_badge"
+    },
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "frame": "task"
+  },
+  "criteria": {
+    "leader_defeated": {
+      "conditions": {
+        "trainer_ids": ["johto_raffaello"]
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "requirements": [
+    [
+      "leader_defeated"
+    ]
+  ],
+  "rewards": {
+    "function": "cobbleverse:raffaello_defeated"
+  }
+}

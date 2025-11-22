@@ -1,0 +1,15 @@
+{
+    "name": "cobbleverse:celebi_shrine",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 2,
+            "element": {
+                "location": "cobbleverse:celebi_shrine",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "element_type": "minecraft:single_pool_element"
+            }
+        }
+    ]
+}

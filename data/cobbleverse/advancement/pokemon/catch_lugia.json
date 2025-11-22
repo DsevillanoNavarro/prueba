@@ -1,0 +1,32 @@
+{
+  "parent": "cobbleverse:trainer/johto/defeat_sandra",
+  "display": {
+    "title": {
+      "translate": "advancements.cobbleverse.catch_lugia"
+    },
+    "description": {
+      "translate": "advancements.cobbleverse.catch_lugia.description"
+    },
+    "icon": {
+      "id": "lumymon:silver_wing"
+    },
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "frame": "goal"
+  },
+  "criteria": {
+    "caught_lugia": {
+      "trigger": "cobblemon:aspects_collected",
+      "conditions": {
+        "pokemon": "cobblemon:lugia",
+        "aspects": ["legendary"]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "caught_lugia"
+    ]
+  ]
+}

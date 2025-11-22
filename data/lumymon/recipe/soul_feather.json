@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "lumymon:glacier_feather"
+    },
+    {
+      "item": "lumymon:thunder_feather"
+    },
+    {
+      "item": "lumymon:ember_feather"
+    }
+  ],
+  "result": {
+    "id": "lumymon:soul_feather"
+  }
+}

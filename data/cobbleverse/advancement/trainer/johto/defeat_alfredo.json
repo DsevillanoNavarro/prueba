@@ -1,0 +1,34 @@
+{
+  "parent": "cobbleverse:trainer/johto/defeat_jasmine",
+  "display": {
+    "title": {
+      "translate": "advancements.cobbleverse.johto.defeat_alfredo"
+    },
+    "description": {
+      "translate": "advancements.cobbleverse.johto.defeat_alfredo.description"
+    },
+    "icon": {
+      "id": "cobbleversebadges:johto_glacier_badge"
+    },
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "frame": "task"
+  },
+  "criteria": {
+    "leader_defeated": {
+      "conditions": {
+        "trainer_ids": ["johto_alfredo"]
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "requirements": [
+    [
+      "leader_defeated"
+    ]
+  ],
+  "rewards": {
+    "function": "cobbleverse:alfredo_defeated"
+  }
+}

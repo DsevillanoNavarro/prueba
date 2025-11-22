@@ -1,0 +1,32 @@
+{
+  "parent": "cobbleverse:item/forge_rocket_armor",
+  "display": {
+    "title": {
+      "translate": "advancements.cobbleverse.equip_armored_mewtwo"
+    },
+    "description": {
+      "translate": "advancements.cobbleverse.equip_armored_mewtwo.description"
+    },
+    "icon": {
+      "id": "lumymon:synthetic_matrix"
+    },
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true,
+    "frame": "goal"
+  },
+  "criteria": {
+    "equipped_armored_mewtwo": {
+      "trigger": "cobblemon:aspects_collected",
+      "conditions": {
+        "pokemon": "cobblemon:mewtwo",
+        "aspects": ["armored"]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "equipped_armored_mewtwo"
+    ]
+  ]
+}

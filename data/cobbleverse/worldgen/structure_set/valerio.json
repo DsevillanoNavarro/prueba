@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "cobbleverse:valerio",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "salt": 1225,
+        "spacing": 40,
+        "separation": 20,
+        "type": "random_spread"
+    }
+}

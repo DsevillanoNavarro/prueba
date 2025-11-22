@@ -1,0 +1,32 @@
+{
+  "parent": "cobbleverse:pokemon/catch_lugia",
+  "display": {
+    "title": {
+      "translate": "advancements.cobbleverse.catch_lugia_shiny"
+    },
+    "description": {
+      "translate": "advancements.cobbleverse.catch_lugia_shiny.description"
+    },
+    "icon": {
+      "id": "lumymon:silver_wing_shiny"
+    },
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": true,
+    "frame": "challenge"
+  },
+  "criteria": {
+    "caught_lugia_shiny": {
+      "trigger": "cobblemon:aspects_collected",
+      "conditions": {
+        "pokemon": "cobblemon:lugia",
+        "aspects": ["shiny"]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "caught_lugia_shiny"
+    ]
+  ]
+}

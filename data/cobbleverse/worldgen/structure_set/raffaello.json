@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "cobbleverse:raffaello",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "salt": 2224,
+        "spacing": 40,
+        "separation": 20,
+        "type": "random_spread"
+    }
+}

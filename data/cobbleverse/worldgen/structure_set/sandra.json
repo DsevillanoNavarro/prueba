@@ -1,0 +1,14 @@
+{
+    "structures": [
+      {
+        "structure": "cobbleverse:sandra",
+        "weight": 10
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 25,
+      "separation": 10,
+      "salt": 8269
+    }
+  }

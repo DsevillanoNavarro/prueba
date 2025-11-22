@@ -1,5 +1,5 @@
 COBBLEVERSE - by EL & MARY
-Version 23, 12 October 2025
+Version 6, 12 October 2025
 
 Made exclusively for COBBLEVERSE.
 This datapack is to be used only with COBBLEVERSE to properly function as intended.

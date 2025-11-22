@@ -1,0 +1,21 @@
+{
+    "structures": [
+      {
+        "structure": "cobbleverse:whirl_island",
+        "weight": 1
+      }
+    ],
+    "placement": {
+      "type": "minecraft:random_spread",
+      "spacing": 150,
+      "separation": 90,
+      "spread_type": "triangular",
+      "salt": 24952,
+      "frequency_reduction_method": "legacy_type_3",
+      "frequency": 0.5,
+      "exclusion_zone": {
+        "other_set": "cobbleverse:koga",
+        "chunk_count": 10
+      }
+    }
+  }

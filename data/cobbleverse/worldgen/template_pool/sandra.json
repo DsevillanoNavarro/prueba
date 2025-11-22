@@ -1,0 +1,15 @@
+{
+  "name": "cobbleverse:sandra",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "cobbleverse:sandra",
+        "processors": "repurposed_structures:villages/warped/randomizer",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

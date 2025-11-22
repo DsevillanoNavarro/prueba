@@ -1,0 +1,34 @@
+{
+  "parent": "cobbleverse:trainer/johto/defeat_raffaello",
+  "display": {
+    "title": {
+      "translate": "advancements.cobbleverse.johto.defeat_chiara"
+    },
+    "description": {
+      "translate": "advancements.cobbleverse.johto.defeat_chiara.description"
+    },
+    "icon": {
+      "id": "cobbleversebadges:johto_plain_badge"
+    },
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "frame": "task"
+  },
+  "criteria": {
+    "leader_defeated": {
+      "conditions": {
+        "trainer_ids": ["johto_chiara"]
+      },
+      "trigger": "rctmod:defeat_count"
+    }
+  },
+  "requirements": [
+    [
+      "leader_defeated"
+    ]
+  ],
+  "rewards": {
+    "function": "cobbleverse:chiara_defeated"
+  }
+}

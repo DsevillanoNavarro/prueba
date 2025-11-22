@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": {
+      "tag": "minecraft:planks"
+    },
+    "Y": {
+      "item": "cobblemon:azure_ball"
+    },
+    "Z": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    " Z ",
+    "YXY",
+    "XYX"
+  ],
+  "result": {
+    "id": "lumymon:johto_cartography_table"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "cobbleverse:pokemon/catch_lugia_shiny",
+  "display": {
+    "title": {
+      "translate": "advancements.cobbleverse.catch_hooh"
+    },
+    "description": {
+      "translate": "advancements.cobbleverse.catch_hooh.description"
+    },
+    "icon": {
+      "id": "lumymon:rainbow_wing"
+    },
+    "announce_to_chat": true,
+    "show_toast": true,
+    "hidden": false,
+    "frame": "goal"
+  },
+  "criteria": {
+    "caught_hooh": {
+      "trigger": "cobblemon:aspects_collected",
+      "conditions": {
+        "pokemon": "cobblemon:hooh",
+        "aspects": ["legendary"]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "caught_hooh"
+    ]
+  ]
+}
