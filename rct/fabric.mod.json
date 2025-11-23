@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "rctmod",
+  "version": "0.16.9-beta",
+  "name": "Radical Cobblemon Trainers",
+  "description": "Over 1500 unique and challenging trainers, from the Pokemon ROM hacks Radical Red (v3.02) and Unbound (v2.0.3.2) as well as the main series games Brilliant Diamond/Shining Pearl, that will spawn naturally in your world.",
+  "authors": [
+    "HDainester"
+  ],
+  "license": "GNU-LGPL-3",
+  "icon": "assets/rctmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gitlab.srcmc.rctmod.fabric.FabricCommon"
+    ],
+    "client": [
+      "com.gitlab.srcmc.rctmod.fabric.client.FabricClient"
+    ],
+    "server": [
+      "com.gitlab.srcmc.rctmod.fabric.server.FabricServer"
+    ]
+  },
+  "mixins": [
+    "rctmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric": "*",
+    "minecraft": "1.21.1",
+    "rctapi": ">=0.13.0-beta",
+    "cobblemon": ">=1.6.0",
+    "forgeconfigapiport": ">=21.1.1"
+  }
+}

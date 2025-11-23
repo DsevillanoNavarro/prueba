@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "com/gitlab/srcmc/rctmod/mixins/MerchantResultSlotMixin": {
+      "onQuickCraft": "Lnet/minecraft/class_1727;method_7678(Lnet/minecraft/class_1799;I)V",
+      "onTake": "Lnet/minecraft/class_1727;method_7667(Lnet/minecraft/class_1657;Lnet/minecraft/class_1799;)V"
+    },
+    "com/gitlab/srcmc/rctmod/mixins/client/ItemRendererMixin": {
+      "render": "Lnet/minecraft/class_918;method_23179(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;ZLnet/minecraft/class_4587;Lnet/minecraft/class_4597;IILnet/minecraft/class_1087;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/gitlab/srcmc/rctmod/mixins/MerchantResultSlotMixin": {
+        "onQuickCraft": "Lnet/minecraft/class_1727;method_7678(Lnet/minecraft/class_1799;I)V",
+        "onTake": "Lnet/minecraft/class_1727;method_7667(Lnet/minecraft/class_1657;Lnet/minecraft/class_1799;)V"
+      },
+      "com/gitlab/srcmc/rctmod/mixins/client/ItemRendererMixin": {
+        "render": "Lnet/minecraft/class_918;method_23179(Lnet/minecraft/class_1799;Lnet/minecraft/class_811;ZLnet/minecraft/class_4587;Lnet/minecraft/class_4597;IILnet/minecraft/class_1087;)V"
+      }
+    }
+  }
+}

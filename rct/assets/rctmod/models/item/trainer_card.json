@@ -1,0 +1,51 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "rctmod:item/trainer_card",
+		"particle": "rctmod:item/trainer_card"
+	},
+	"elements": [
+		{
+			"from": [5.2, 0, 6.4],
+			"to": [10.8, 0.04, 9.6],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [15, 0, 16, 8], "rotation": 90, "texture": "#0"},
+				"east": {"uv": [14, 0, 15, 8], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [15, 8, 16, 16], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [14, 8, 15, 16], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 0, 14, 8], "texture": "#0"},
+				"down": {"uv": [0, 8, 14, 16], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, -75, 15],
+			"translation": [-1, 4.5, 7.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, -75, 15],
+			"translation": [-1, 4.5, 7.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [35, -20, 0],
+			"translation": [0, 8, 6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [35, -20, 0],
+			"translation": [0, 8, 6]
+		},
+		"ground": {
+			"translation": [0, 4.75, 0]
+		},
+		"gui": {
+			"rotation": [90, 45, 0],
+			"scale": [2.25, 1, 2.25]
+		},
+		"fixed": {
+			"rotation": [90, 0, 180],
+			"translation": [0, 0, -7]
+		}
+	}
+}
